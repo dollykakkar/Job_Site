@@ -1,0 +1,53 @@
+.sec2{
+    height: 550px;
+    width: 100%;
+    border: 4px solid white;
+    background-color: black;
+}
+.desc{
+    height: 140px;
+    width: 400px;
+    margin: 120px 0px 0px 100px;
+}
+.desc .p1{
+    /* font-family: Gilroy; */
+    font-weight: 200px;
+    font-size: 28px;
+    color: white;
+}
+.desc .p2{
+    /* font-family: Gilroy; */
+    font-weight: 200px;
+    font-size: 18px;
+    color:grey;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+.cmpny{
+    /* border: 5px solid red; */
+    width: 700px;
+    height: 230px;
+    margin-left:200px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.cmpny .cmp{
+    /* border: 3px solid white; */
+    width: 200px;
+    height:80px ;
+    border-radius: 8px;
+    background-color: white;
+}
+.cmpny div:hover{
+    background-color: blue;
+}
+.p11{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-right: 35px;
+}
+.p22{
+    margin-top: -12px;
+    margin-right: 35px;
+}

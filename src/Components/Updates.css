@@ -1,0 +1,55 @@
+.update{
+    height: 400px;
+    width: 500px;
+    /* border: 3px solid red; */
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.logo1{
+    height: 70px;
+    width: 70px;
+    background-color: #68D585;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.logo1 i{
+    font-size: 25px;
+}
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.Udesc{
+    width: 400px;
+    margin-top: 18px;
+    margin-left: 58px;
+}
+.sub{
+    height: 45px;
+    width: 330px;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.sub input{
+    height: 35px;
+    width: 200px;
+}
+.sub button{
+    height: 35px;
+    width: 100px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.line{
+    width: 350px;
+    margin-left: 65px;
+    margin-top: 20px;
+}

@@ -1,0 +1,39 @@
+.nav{
+    height: 55px;
+    background-color: #ebfafc;
+    /* border: 2px solid black; */
+    border-bottom: 2px solid grey;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    /* margin-top: 20px; */
+}
+.nav .logo{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 120px;
+    margin-top: 25px;
+    width: 500px;
+    justify-content: space-evenly;
+}
+.btns{
+    height: 35px;
+    width: 200px;
+    margin-left: 60px;
+}
+.btns button{
+    background: none;
+    border: none;
+    margin-left: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}

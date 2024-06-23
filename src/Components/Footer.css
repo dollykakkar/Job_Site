@@ -1,0 +1,59 @@
+.footer{
+    width: 100%;
+    height: 450px;
+    background-color:black ;
+    padding-top: 90px;
+    display: flex;
+}
+.flft{
+    width: 270px;
+    height: 240px;
+    margin-left: 60px;
+}
+.flft h3{
+    color: white;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+.flft p{
+    color: gray;
+    margin-top: 30px;
+}
+.icns{
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+.icns i:hover{
+    color:#68D585;
+}
+.fryt{
+    width: 650px;
+    /* border: 4px solid red; */
+    height: 350px;
+    margin-left: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.cpny,.product,.service,.legal{
+    height:300px ;
+    width: 150px;
+    /* border: 3px solid white; */
+   color: grey;
+   /* font-weight: bold; */
+    margin-left: -10px;
+    padding-top: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+   line-height: 20px;
+}
+.cpny a,.product a,.service a,.legal a{
+    text-decoration: none;
+    color: white;
+    font-family: Gilroy;
+}
+.cpny a:hover,.product a:hover,.service a:hover,.legal a:hover{
+    color: blue;
+}
